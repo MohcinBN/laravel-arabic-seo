@@ -1,8 +1,16 @@
 {
     "name": "mohcin/arabic-seo",
-    "description": "Arabic SEO package",
+    "description": "A Laravel package for Arabic SEO optimization, including meta tags and slug generation",
     "type": "library",
+    "keywords": ["laravel", "seo", "arabic", "slug", "meta-tags", "rtl"],
+    "homepage": "https://github.com/MohcinBN/laravel-arabic-seo",
     "license": "MIT",
+    "authors": [
+        {
+            "name": "Mohcin",
+            "role": "Developer"
+        }
+    ],
     "autoload": {
         "psr-4": {
             "ArabicSeo\\Seo\\": "src/"
