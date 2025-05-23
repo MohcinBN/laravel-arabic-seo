@@ -1,5 +1,5 @@
 {
-    "name": "mohcin/arabic-seo",
+    "name": "mohcin/laravel-arabic-seo",
     "description": "A Laravel package for Arabic SEO optimization, including meta tags and slug generation",
     "type": "library",
     "keywords": ["laravel", "seo", "arabic", "slug", "meta-tags", "rtl"],
