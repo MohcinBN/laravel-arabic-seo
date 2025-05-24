@@ -6,7 +6,7 @@ use Orchestra\Testbench\TestCase;
 use ArabicSeo\Seo\Facades\Seo;
 use ArabicSeo\Seo\SeoServiceProvider;
 
-class SeoTest extends TestCase
+class SeoSlugTest extends TestCase
 {
     protected function getPackageProviders($app)
     {
@@ -25,7 +25,7 @@ class SeoTest extends TestCase
     /**
      * @test
      */
-    public function test_slug_generation()
+    public function it_generates_slug()
     {
         $slug = Seo::generateSlug('اللغة العربية جميلة');
         $this->assertEquals('اللغة-العربية-جميلة', $slug);
