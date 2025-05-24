@@ -32,6 +32,7 @@ $meta = Seo::meta([
     'title' => 'السلام عليكم',
     'description' => 'وصف الموقع',
     'keywords' => 'قم بتحسين محرك البحث الخاص بموقعك/تطبيقك على لارافيل باستخدام حزمة تحسين محركات البحث العربية هذه',
+    'robotsMeta' => Seo::generateRobotsMeta('noindex, nofollow', false), // use true as a second parameter to hide robots meta
 ]);
 ```
 
